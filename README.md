@@ -4,9 +4,31 @@ This repository contains code for a grid-based approximation of Ripley's K-funct
 
 The notebook test-K-function.ipynb contains a short demo for the grid-based K-function.
 
-*TODO: Add theoretical background for the grid-based K-function. Add examples for preprocessing and K-function-computation on real images, using process_images.py. Also add demos for two-sample testing on functional data as implemented in the scripts two_sample_testing.py and functional_data.py*
 
 
+**How to use the code:**
+
+1. Create a new conda environment from the .yml file, using 
+
+   ```
+   conda env create --file env.yml
+   ```
+
+2. Open JupyterLab (or, alternatively, Jupyter Notebook) by running the command
+
+   ```
+   jupyter lab [path of the repository]
+   ```
+
+3. Run the code in test-K-function.ipynb
+
+
+
+**TODO:**
+
+- Add theoretical background for the grid-based K-function 
+- Add examples for preprocessing and K-function-computation on real images, using process_images.py
+- Add demos for two-sample testing on functional data as implemented in the scripts two_sample_testing.py and functional_data.py
 
 \
 [1] B. D. Ripley, “Modelling spatial patterns,” Journal of the Royal Statistical Society: Series B (Methodological), vol. 39, no. 2, pp. 172–192, 1977.
