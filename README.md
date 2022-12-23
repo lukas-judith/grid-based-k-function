@@ -8,19 +8,27 @@ The notebook test-K-function.ipynb contains a short demo for the grid-based K-fu
 
 **How to use the code:**
 
+*Prerequisites: [conda](https://docs.conda.io/en/latest/) must be installed.*
+
 1. Create a new conda environment from the .yml file, using 
 
    ```
    conda env create --file env.yml
    ```
 
-2. Open JupyterLab (or, alternatively, Jupyter Notebook) by running the command
+2. Activate the environment:
+
+   ```
+   conda activate hci3.7
+   ```
+
+3. Open JupyterLab (or, alternatively, Jupyter Notebook) by running the command
 
    ```
    jupyter lab [path of the repository]
    ```
 
-3. Run the code in test-K-function.ipynb
+4. Run the code in test-K-function.ipynb
 
 
 
