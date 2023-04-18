@@ -1,4 +1,4 @@
-# Grid-based K-function
+# Grid-based K-function for Spatial Statistical Analysis of Cell Images
 
 This repository contains code for a grid-based approximation of Ripley's K-function [1] for quantifying the clustering of point patterns in images. It was created during an internship project at the [Heidelberg Collaboratory for Image Processing (HCI)](https://hci.iwr.uni-heidelberg.de), where I focused on analyzing the aggretation of different proteins in cell images. The method was developed in particular for computing the K-function directly on the image by taking the pixel intensities into acccount. This is especially useful in the case of blurred and densely overlapping points, where the extraction of the true point coordinates is difficult (this would normally be necessary in order to apply the standard K-function).  
 
